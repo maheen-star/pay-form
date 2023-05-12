@@ -96,6 +96,8 @@ body {
   align-items: center;
   font-weight: bolder;
   color: #555;
+  background-color: aliceblue;
+  padding: 2px;
 }
 .net_pay {
   display: flex;
