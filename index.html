@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="top-header">
+          <i class="fa-solid fa-arrow-left fa-xl back_button"></i>
+          <span class="pay_heading">Pay Slip Details</span>
+        </div>
+        <div class="pay_row">
+          <div class="pay_item">
+            <p>Pay Period</p>
+            <p>Sep 01, Sep 30, 2021</p>
+          </div>
+          <div class="pay_item">
+            <p>Pay Date</p>
+            <p>Oct 26, 2021</p>
+          </div>
+        </div>
+        <div class="earnings_section">
+          <div class="earnings_head">
+            <span class="section_heading">Earnings</span>
+            <i class="fa-solid fa-circle-plus fa-xl plus_button"></i>
+          </div>
+          <div class="earnings_body">
+            <div class="earnings_item">
+              <p>Basic Pay</p>
+              <p>800,000</p>
+            </div>
+            <div class="earnings_item">
+              <p>Overtimes</p>
+              <div class="earning_item_right">
+                <span>3,000</span>
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+            <div class="earnings_item">
+              <p>Travel Allowance</p>
+              <p>10,000</p>
+            </div>
+            <div class="earnings_total total">
+              <p>Total Earnings</p>
+              <p>$13,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="deduction_sections">
+          <div class="deductions_head">
+            <span class="section_heading">Deduction</span>
+            <i class="fa-solid fa-circle-plus fa-xl plus_button"></i>
+          </div>
+          <div class="deductions_body">
+            <div class="deductions_item">
+              <p>Fine</p>
+              <p>5,000</p>
+            </div>
+            <div class="deductions_item">
+              <p>Income Tax</p>
+              <div class="deduction_item_right">
+                <span>31,840</span>
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+            <div class="deductions_item">
+              <p>Late</p>
+              <p>5,000</p>
+            </div>
+            <div class="deductions_item">
+              <p>Loan</p>
+              <p>10,000</p>
+            </div>
+            <div class="deductions_item">
+              <p>SSb</p>
+              <div class="deduction_item_right">
+                <span>6,000</span>
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+            <div class="deductions_total">
+              <p>Total Deductions</p>
+              <p>$57,840</p>
+            </div>
+          </div>
+        </div>
+        <div class="net_pay_row">
+          <div class="net_pay">
+            <div class="section_heading">Net Pay <span> (MMK) </span></div>
+            <p class="section_heading">$755,160</p>
+          </div>
+        </div>
+        <div class="buttons_section">
+          <button class="btn btn_download">Download PDF</button>
+          <button class="btn btn_acknowledge">Acknowledge</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

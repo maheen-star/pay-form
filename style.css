@@ -1,0 +1,125 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  /* background: #ccc; */
+  min-width: 35%;
+  padding: 2rem;
+}
+.pay_heading {
+  font-weight: bold;
+  font-size: 20px;
+  color: #01007e;
+  margin-left: 0.5rem;
+}
+.back_button {
+  cursor: pointer;
+}
+.pay_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  gap: 10px;
+}
+.pay_item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 15px;
+}
+.pay_item p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.pay_item > :first-child {
+  color: #777;
+}
+.earnings_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section_heading {
+  font-weight: bold;
+  font-size: 17px;
+}
+.plus_button {
+  color: #01007e;
+  cursor: pointer;
+}
+.earnings_body {
+  padding-left: 1rem;
+}
+.earnings_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.earnings_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  color: #555;
+  background-color: aliceblue;
+  padding: 2px;
+}
+
+
+.deductions_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.deductions_body {
+  padding-left: 1rem;
+}
+.deductions_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deductions_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  color: #555;
+}
+.net_pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.net_pay span {
+  font-size: 12px;
+}
+.buttons_section {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+.btn_download {
+  color: #01007e;
+}
+.btn_acknowledge {
+  background: #01007e;
+  padding: 0.5rem 1rem;
+}
